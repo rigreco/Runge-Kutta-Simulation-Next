@@ -1,7 +1,21 @@
-/* Copyright (C) 2015 Riccardo Greco rigreco.grc@gmail.com.
-*   
-*  This project is based on 1999-2000 Thesis work of Greco Riccardo.*/
+/*  Runge Kutta simulator for Induction Motors
+    This project is based on 1999-2000 Thesis work of Greco Riccardo.
 
+    Copyright (C) 2015  Riccardo Greco rigreco.grc@gmail.com.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 #include <windows.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -204,7 +218,7 @@ void main(void)
 		
 		// RUNGE KUTTA
 
-		// 0ø order
+		// 0Ã¸ order
 
 		f(x, y, eq);
 
@@ -215,7 +229,7 @@ void main(void)
 		r15 = eq[4];
 		r16 = eq[5];
 
-		// 1ø order
+		// 1Ã¸ order
 
 		y1[0] = y[0] + erre1[0] * r11*h;
 		y1[1] = y[1] + erre1[0] * r12*h;
@@ -233,7 +247,7 @@ void main(void)
 		r25 = eq[4];
 		r26 = eq[5];
 
-		// 2ø order
+		// 2Ã¸ order
 
 		y1[0] = y[0] + erre2[0] * r11*h + erre2[1] * r21*h;
 		y1[1] = y[1] + erre2[0] * r12*h + erre2[1] * r22*h;
@@ -251,7 +265,7 @@ void main(void)
 		r35 = eq[4];
 		r36 = eq[5];
 
-		// 3ø order
+		// 3Ã¸ order
 
 		y1[0] = y[0] + erre3[0] * r11*h + erre3[1] * r21*h + erre3[2] * r31*h;
 		y1[1] = y[1] + erre3[0] * r12*h + erre3[1] * r22*h + erre3[2] * r32*h;
@@ -269,7 +283,7 @@ void main(void)
 		r45 = eq[4];
 		r46 = eq[5];
 
-		// 4ø order
+		// 4Ã¸ order
 
 		y1[0] = y[0] + erre4[0] * r11*h + erre4[1] * r21*h + erre4[2] * r31*h + erre4[3] * r41*h;
 		y1[1] = y[1] + erre4[0] * r12*h + erre4[1] * r22*h + erre4[2] * r32*h + erre4[3] * r42*h;
@@ -287,7 +301,7 @@ void main(void)
 		r55 = eq[4];
 		r56 = eq[5];
 
-		// 5ø order
+		// 5Ã¸ order
 
 		y1[0] = y[0] + erre5[0] * r11*h + erre5[1] * r21*h + erre5[2] * r31*h + erre5[3] * r41*h + erre5[4] * r51*h;
 		y1[1] = y[1] + erre5[0] * r12*h + erre5[1] * r22*h + erre5[2] * r32*h + erre5[3] * r42*h + erre5[4] * r52*h;
