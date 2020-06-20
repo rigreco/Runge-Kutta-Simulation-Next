@@ -1,7 +1,7 @@
 # Runge-Kutta-Simulation-Next
 Next genaration of Runge-Kutta simulation
 
-This project is based on 1999-2000 Thesis work of Greco Riccardo coded in ANSI C/C++ for x86 and DSP processor titled: "An algorithm for self-commissioning induction motors. It implement an Runge Kutta 4(5)^ order integration numerical method of differential equations set by use of double precision floating point operation.
+This project is based on 1999-2000 Thesis work of Greco Riccardo coded in ANSI C/C++ for x86 and DSP processor titled: "An algorithm for self-commissioning of induction motors. It implement an Runge Kutta 4(5)^ order integration numerical method of differential equations set by use of double precision floating point operation.
 
 #Snapshots
 
