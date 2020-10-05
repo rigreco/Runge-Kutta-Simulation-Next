@@ -1,6 +1,9 @@
 /*  Runge Kutta simulator for Induction Motors
     This project is based on 1999-2000 Thesis work of Greco Riccardo.
 
+	Asynchronous v1.0
+	rksim.exe
+
     Copyright (C) 2015  Riccardo Greco rigreco.grc@gmail.com.
 
     This program is free software: you can redistribute it and/or modify

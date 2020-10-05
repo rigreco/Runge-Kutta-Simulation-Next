@@ -1,0 +1,16 @@
+﻿  Asincron2015.cpp
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(349,37): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(349,19): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(351,35): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(351,19): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(353,35): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(353,19): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(355,34): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(355,19): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(357,34): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\RKSIM\Asincron2015.cpp(357,19): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+  Generazione codice in corso...
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  RKSIM.vcxproj -> C:\Users\rigre\source\repos\rigreco\Runge-Kutta-Simulation-Next\Release\RKSIM.exe
